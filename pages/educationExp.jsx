@@ -5,7 +5,7 @@ const EducationExp = () => {
   return (
     <Box p={8}>
       <Heading size="lg" mb={6} textAlign="center" color="teal.600">
-        Education Experience
+        Education Background
       </Heading>
 
       <VStack spacing={6} align="start">
@@ -45,8 +45,8 @@ const EducationExp = () => {
             Management (Major: Forest Exploitation and Wood Transformation)
           </Text>
           <Text>
-            University of Dschang • Faculty of Agronomy and Agricultural
-            Sciences (FMBEE)
+            University of Dschang • Filière des Métiers du Bois de l'Eau et de
+            l'Environnement (FMBEE)
           </Text>
           <Text>Ebolowa • Cameroon</Text>
         </Box>

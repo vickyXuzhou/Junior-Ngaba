@@ -150,7 +150,7 @@ export default function About() {
             fontWeight="extrabold"
             fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }}
           >
-            My primary Research Interest
+            My Primary Research Interest
             <Box
               height="4px"
               width="40%" // you can adjust (or "full" for full width underline)
@@ -180,6 +180,22 @@ export default function About() {
         </Box>
 
         <Divider mb={10} />
+        <Box textAlign="center" mx="auto" p="2rem" w="100%">
+          <Image
+            src="/images/professors.jpg"
+            alt="About page highlight"
+            borderRadius="5px"
+            // boxShadow="md"
+            mx="auto"
+            w="100%"
+            h={{ base: "200px", sm: "300px", md: "460px" }}
+            objectFit="cover"
+            // w={{ base: "90%", md: "60%" }}
+            // w={{ base: "80%", sm: "70%", md: "60%", lg: "100%" }} // adjusts width per screen size
+            // h="auto"
+            // h={{ base: "90%", md: "" }}
+          />
+        </Box>
 
         {/* Quick Highlights */}
         <Box mb={12}>

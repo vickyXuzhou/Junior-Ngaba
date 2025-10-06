@@ -13,7 +13,7 @@ const Work = () => {
       <VStack spacing={6} align="start">
         <Box align="left">
           <Text fontWeight="bold" color="teal.500">
-            February 2023 – Present: Postdoctorate Researcher
+            October 2022 – Present: Postdoctorate Researcher
           </Text>
           <Text>Southwest University (Chongqing, China)</Text>
           <Text>College of Resources and Environment</Text>
