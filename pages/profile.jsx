@@ -18,7 +18,7 @@ export default function Profile() {
       <Avatar
         size="2xl"
         name="Dr. Ngaba Mbezele Junior Yannick"
-        src="images/profile.jpg"
+        src="/images/profile.jpg"
         mb={4}
       />
 

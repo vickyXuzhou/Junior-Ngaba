@@ -23,7 +23,7 @@ const Navbar = () => {
       >
         {/* Logo */}
         <Image
-          src="images/logo.jpg"
+          src="/images/logo.jpg"
           alt="Logo"
           w={{ base: "3rem", md: "7rem" }}
           borderRadius="full"

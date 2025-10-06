@@ -30,7 +30,7 @@ export default function About() {
         >
           {/* Profile Photo */}
           <Image
-            src="images/seated.jpg"
+            src="/images/seated.jpg"
             alt="Profile Photo"
             boxSize={{ base: "200px", sm: "250px", md: "300px", lg: "350px" }} //  responsive sizing
             objectFit="cover"
@@ -89,7 +89,7 @@ export default function About() {
           mb={12}
         >
           <Image
-            src="images/casual.jpg"
+            src="/images/casual.jpg"
             alt="Casual Lifestyle"
             boxSize={{ base: "250px", md: "300px" }}
             borderRadius="xl"

@@ -58,7 +58,7 @@ function App() {
         >
           {/* Background Image */}
           <Image
-            src="images/background.jpg"
+            src="/images/background.jpg"
             alt="Semi-circle image"
             objectFit="cover"
             w="100%"
@@ -81,7 +81,7 @@ function App() {
           >
             {/* Logo */}
             <Image
-              src="images/logo.jpg"
+              src="/images/logo.jpg"
               alt="Logo"
               w={{ base: "3rem", md: "7rem" }}
               borderRadius="full"
