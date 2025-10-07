@@ -32,16 +32,17 @@ export default function Profile() {
         Title: Post-doc / Lecturer
       </Text>
       <Text textAlign="center" color="gray.600">
-        Affiliated Institution: Southwest University
+        Affiliated Institution: Southwest University / University of Ebolowa
       </Text>
       <Text textAlign="center" color="gray.600">
         Affiliated College : College of Resources and Environment
       </Text>
       <Text textAlign="center" color="gray.600">
-        Discipline: Forestry, Ecology, Environmental and Soil Science
+        Discipline: Forestry, Ecology, Environmental and Soil Sciences
       </Text>
       <Text textAlign="center" color="gray.600">
-        English and French (Very good proficiency), Chinese (beginner).
+        Language: English and French (Very good proficiency), Chinese
+        (beginner).
       </Text>
     </Flex>
   );

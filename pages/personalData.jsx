@@ -40,7 +40,7 @@ const PersonalData = () => {
         <Text fontWeight="bold" color="teal.500">
           Graduated from:
         </Text>
-        <Text>Fujian Agriculture and Forestry University</Text>
+        <Text>Fujian Agriculture and Forestry University (FAFU)</Text>
         {/* </Box> */}
 
         {/* <Box> */}

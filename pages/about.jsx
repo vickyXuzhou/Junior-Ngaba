@@ -11,9 +11,14 @@ import {
   SimpleGrid,
   Link,
   Divider,
+  Center,
+  ListItem,
+  ListIcon,
+  List,
 } from "@chakra-ui/react";
 import Navbar from "./navbar";
 import { NavLink } from "react-router-dom";
+import { CheckCircleIcon } from "@chakra-ui/icons";
 // import { Link } from "react-router-dom";
 
 export default function About() {
@@ -50,7 +55,7 @@ export default function About() {
               fontWeight="extrabold"
               mb={0}
             >
-              Hi, I'm Dr Ngaba Junior
+              Hi, I'm Dr Junior Ngaba
               <Box
                 height="4px"
                 width="70%" // you can adjust (or "full" for full width underline)
@@ -65,7 +70,7 @@ export default function About() {
             </Box>
             <Text
               mt={3}
-              fontSize={{ base: "md", sm: "lg" }}
+              fontSize={{ base: "md", sm: "xl" }}
               color="gray.600"
               lineHeight="tall"
             >
@@ -131,7 +136,7 @@ export default function About() {
                 // pt={9}
               />
             </Heading>
-            <Text color="gray.600">
+            <Text color="gray.600" fontSize={{ base: "md", sm: "xl" }}>
               When I’m not doing research, you’ll find me exploring new
               cultures, enjoying nature, and mentoring young scientists. This
               balance helps me stay grounded and creative in my professional
@@ -139,6 +144,27 @@ export default function About() {
             </Text>
           </Box>
         </Flex>
+        {/* <Box
+          w={{ base: "400px" }}
+          display={{ base: "block", sm: "block", md: "none" }}
+          m="0 auto"
+          // background="red"
+          textAlign="center"
+        >
+          <Image
+            src="/images/casual.jpg"
+            alt="Casual Lifestyle"
+            // boxSize={{ base: "250px", md: "300px" }}
+            height="300px"
+            borderRadius="xl"
+            objectFit="cover"
+            // objectPosition="center 65%" //  shows the top part instead of center
+            shadow="md"
+            display="inline-block"
+            width="100%"
+            // flex="1"
+          />
+        </Box> */}
 
         <Divider mb={10} />
 
@@ -163,20 +189,43 @@ export default function About() {
               // pt={9}
             />
           </Heading>
-          <VStack align="start" spacing={4} margin="0 auto" maxW="700px">
-            <Text>
-              Enviromental science, soil science, forestry and wildlife
-              management
-            </Text>
-            <Text>
-              Worked extensively on topics such as plant nutrition,land-use
-              change, carbon sequestration, enviromental pollution and more
-            </Text>
-            <Text>
-              Published papers in peer reviewed journals and presented at
-              international comferences
-            </Text>
-          </VStack>
+          <Flex
+            alignItems="center"
+            spacing={4}
+            margin="0 auto"
+            maxW="700px"
+            flexDirection={{ base: "column", md: "column" }}
+          >
+            <List>
+              <ListItem
+                display="flex"
+                alignItems="flex-start"
+
+                // alignItems=""
+              >
+                <ListIcon as={CheckCircleIcon} color="teal.500" mt="5px" />
+                <Text fontSize={{ base: "md", sm: "xl" }}>
+                  Enviromental science, soil science, forestry and wildlife
+                  management.
+                </Text>
+              </ListItem>
+              <ListItem display="flex" alignItems="flex-start">
+                <ListIcon as={CheckCircleIcon} color="teal.500" mt="5px" />
+                <Text fontSize={{ base: "md", sm: "xl" }}>
+                  Worked extensively on topics such as plant nutrition,land-use
+                  change, carbon sequestration, enviromental pollution and more.
+                </Text>
+              </ListItem>
+              <ListItem display="flex" alignItems="flex-start">
+                <ListIcon as={CheckCircleIcon} color="teal.500" mt="5px" />
+                {/* <ListIcon as={CheckCircleIcon} color="teal.500"  /> */}
+                <Text fontSize={{ base: "md", sm: "xl" }}>
+                  Published papers in peer reviewed journals and presented at
+                  international comferences.
+                </Text>
+              </ListItem>
+            </List>
+          </Flex>
         </Box>
 
         <Divider mb={10} />

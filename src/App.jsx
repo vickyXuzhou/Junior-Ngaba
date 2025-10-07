@@ -228,8 +228,8 @@ function App() {
             direction="column"
             px={{ base: 4, md: 0 }}
           >
-            <Text fontSize={{ base: "2xl", md: "4xl" }} fontWeight="bold">
-              Ngaba Junior
+            <Text fontSize={{ base: "2xl", md: "5xl" }} fontWeight="bold">
+              Dr Junior Ngaba
             </Text>
             <Text fontSize={{ base: "md", md: "lg" }}>Welcome to my site</Text>
           </Flex>

@@ -11,7 +11,7 @@ const EducationExp = () => {
       <VStack spacing={6} align="start">
         <Box align="left">
           <Text fontWeight="bold" color="teal.500">
-            Aug 2016 - Jul 2020: PhD (Major: Forest Management)
+            Sep 2016 - Jul 2020: PhD (Major: Forest Management)
           </Text>
           <Text>Fujian Agriculture and Forestry University (FAFU)</Text>
           <Text>College of Forestry • Fuzhou • China</Text>
@@ -19,7 +19,7 @@ const EducationExp = () => {
 
         <Box align="left">
           <Text fontWeight="bold" color="teal.500">
-            Aug 2015 - Jul 2016: Master of Science (Major: Environmental
+            Oct 2015 - Jul 2016: Master of Science (Major: Environmental
             Sciences - Public Audience)
           </Text>
           <Text>University of Dschang • College of Environment</Text>
